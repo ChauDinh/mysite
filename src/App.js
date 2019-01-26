@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Link, Route } from "react-router-dom";
+import avatar from "./assets/avatar.png";
 import './App.css';
 import { Button, Dropdown, Icon, Menu } from "antd";
 
@@ -13,7 +14,7 @@ class App extends React.Component {
   render() {
     return (
       <Router>
-        <div className="App">
+        <div className="app">
           {this.renderProfileImage()}
           {this.renderNavigation()}
           {this.renderRoutes()}
@@ -25,7 +26,7 @@ class App extends React.Component {
   renderProfileImage() {
     return (
       <div className="profile">
-        <img src="" alt="avatar" className="profile-image"/>
+        <img src={avatar} alt="avatar" className="profile-image"/>
         <div className="profile-name">Chau Dinh</div>
       </div>
     )
