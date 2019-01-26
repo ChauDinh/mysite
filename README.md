@@ -14,7 +14,7 @@ You can visit the site directly via the link: ""
 
 Or clone all codes: 
 ```git
-$ git clone abcxyz
+$ git clone git@github.com:ChauDinh/mysite.git
 $ npm install
 ```
 
