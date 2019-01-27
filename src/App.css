@@ -8,7 +8,13 @@
 }
 
 .profile-image {
-  width: 150px;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 28px 16px -26px rgba(0, 0, 0);
+  -moz-box-shadow: 0 28px 16px -26px rgba(0, 0, 0);
+  box-shadow: 0 28px 16px -26px rgba(0, 0, 0);
+  margin-bottom: 10px;
 }
 
 .profile-name {

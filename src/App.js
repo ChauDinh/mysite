@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Link, Route } from "react-router-dom";
-import avatar from "./assets/avatar.png";
+import avatar from "./assets/avatar.JPG";
 import './App.css';
 import { Button, Dropdown, Icon, Menu } from "antd";
 
