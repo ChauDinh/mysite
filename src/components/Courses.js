@@ -20,14 +20,14 @@ export default class Courses extends Component {
        <p>
         <b>11.2018</b>
         <br />Front End Libraries Certification (freecodecamp.org). Incuding:
-        <ul>
-         <li>Redux</li>
-         <li>React</li>
-         <li>Bootstrap Challenges - Finished</li>
-         <li>jQuery - Finished</li>
-         <li>Sass - Finised</li>
-        </ul>
        </p>
+       <ul>
+        <li>Redux</li>
+        <li>React</li>
+        <li>Bootstrap Challenges - Finished</li>
+        <li>jQuery - Finished</li>
+        <li>Sass - Finised</li>
+       </ul>
       </Timeline.Item>
       <Timeline.Item>
        <p>
